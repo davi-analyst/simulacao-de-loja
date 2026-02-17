@@ -1,40 +1,23 @@
-🔐 Loja - Sistema de Login & Temas
-Este projeto é um módulo de autenticação simples que permite ao usuário acessar uma lista de produtos e escolher a preferência visual da interface através de temas.
+Loja - Autenticação & Temas
+Módulo de acesso seguro com funcionalidade de personalização de interface, focado em lógica de back-end e fluxo de usuário.
 
-1. O que é isso?
-Uma aplicação PHP que simula o fluxo de acesso de uma loja virtual. As principais funcionalidades são:
+1. O que é?
+Sistema de login funcional que integra autenticação de usuário e seleção de temas.
 
-Autenticação: Validação de usuário e senha (ex: admin/123).
+Foco Técnico: Prioriza a integridade do fluxo lógica-servidor e a usabilidade direta.
 
-Persistência de Preferências: Uso de Cookies ou Sessions para salvar o tema escolhido (Claro, Escuro ou Azul).
+Interface: Design minimalista e utilitário, desenvolvido estritamente para suporte às funções do sistema, sem distrações estéticas.
 
-Área Restrita: Uma lista de produtos que só pode ser visualizada após o login bem-sucedido.
+2. Instalação e Uso
+Hospede os arquivos em um servidor PHP (ex: XAMPP).
 
-2. Como eu rodo isso na minha máquina?
-Mova os arquivos para a pasta do seu servidor local (ex: htdocs no XAMPP).
+Acesse index.php via localhost.
 
-Inicie o Apache no painel de controle do XAMPP.
+Acesso: admin / 123.
 
-Acesse no navegador: http://localhost/nome-da-sua-pasta/
+3. Aprendizados
+Lógica de Sessão: Controle de acesso e persistência de dados.
 
-Credenciais de teste: * Usuário: admin
+PHP Dinâmico: Processamento de formulários via POST e redirecionamento de headers.
 
-Senha: 123
-
-3. O que eu aprendi?
-Neste projeto, foquei na experiência do usuário e segurança básica:
-
-Manipulação de Formulários: Captura de dados via método POST.
-
-Lógica de Temas: Aplicação de CSS dinâmico baseado na escolha do usuário dentro de um elemento <select>.
-
-Controle de Acesso: Como redirecionar usuários e proteger páginas usando lógica de programação PHP.
-
-UX de Login: Inclusão de valores padrão para testes e mensagens de instrução.
-
-🛠 Tecnologias
-HTML5 (Estrutura)
-
-CSS3 (Estilização de temas)
-
-PHP (Lógica de autenticação e redirecionamento)
+UX Funcional: Implementação de temas (Claro/Escuro) focada na escolha do usuário.
