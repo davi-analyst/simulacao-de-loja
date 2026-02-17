@@ -101,7 +101,8 @@ $filtro = $_GET['busca'] ?? ''; // Usa a superglobal $_GET
             </tbody>
         </table>
 
-        <p style="margin-top: 30px;"><a href='index.php'>Fazer Logout e Mudar Tema</a></p>
+        <p style="margin-top: 30px;"><a href='logout.php'>Fazer Logout e Mudar Tema</a></p>
+        
     </div>
 </body>
 </html>
